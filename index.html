@@ -32,40 +32,53 @@
                 <span class="dash"></span>
             </div>
         </header>
-        <section></section>
+        <section>
+            <h2>Formulário de Inscrição</h2>
             <div class="formulario">
-                <div>
+                <div class="flexColumn">
                     <label for="">Nome</label>
-                    <input type="text" name="" id="" placeholder="Fulano de Tal">
+                    <input type="text" name="" id="" placeholder="Nome e Sobrenome" required>
                 </div>
-                <div>
+                <div class="flexColumn">
                     <label for="">E-mail</label>
-                    <input type="email" name="" id="" placeholder="meuemail@email.com">
+                    <input type="email" name="" id="" placeholder="meuemail@email.com" required>
                 </div>
-                <div>
+                <div class="flexColumn">
                     <label for="">Celular</label>
                     <input type="tel" name="" id="" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="(00) 00000-0000" required>
                 </div>
-                <div>
-                    <div>
+                <div class="flex">
+                    <div class="flexColumn w-48">
                         <label for="">Curso</label>
                         <select name="" id="">
+                        <option value="">Selecione o curso</option>
                         <option value="">Frontend</option>
                         <option value="">Backend</option>
                         <option value="">FullStack</option>
                         </select>
                     </div>
-                    <div>
+                    <div class="flexColumn w-48">
                         <label for="">Horário</label>
                         <select name="" id="">
+                        <option value="">Selecione o horário</option>
                         <option value="">Manhã</option>
                         <option value="">Tarde</option>
                         <option value="">Noite</option>
                         </select>
                     </div>            
                 </div>
+                <div class="flex-column">
+                    <div class="radio"><label for="">Nível de conhecimento</label></div>
+                    <div class="radio">
+                    <input type="radio" name="" id="Nenhum" checked>Nenhum
+                    <input type="radio" name="" id="Básico">Básico
+                    <input type="radio" name="" id="Intermediário">Intermediário
+                    <input type="radio" name="" id="Avançado">Avançado
+                    </div>
+                </div>
                 <button>Inscrever-se!</button>
             </div>
+        </section>    
         <footer></footer>
     </div>
 </body>
