@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    header {
+        align-items: center;
+        background-color: aliceblue;
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .logo {
+        height: 60%;
+    }
+
+    .logo img {
+        height: 100%;
+    }
+
+    header .menuMobile {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 30px;
+    }
+
+    .menuMobile .dash {
+        background-color: #1c868e;
+        border-radius: 20px;
+        height: 3px;
+        margin: 2.5px 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
